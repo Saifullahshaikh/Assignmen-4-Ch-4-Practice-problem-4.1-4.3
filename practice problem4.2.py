@@ -1,0 +1,12 @@
+print('Saifullah, 18B-092-CS, A')
+print('assignment# 4, Practice problem 4.2')
+forecast = 'It will be a sunny day today'
+#(a)
+count = forecast.count('day')
+print('(a):', count)
+#(b)
+weather = forecast.find('sunny')
+print('(b):', weather)
+#(c)
+change = forecast.replace('sunny', 'cloudy')
+print('(c):', change)
